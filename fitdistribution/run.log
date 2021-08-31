@@ -1,0 +1,2534 @@
+ histoname jet_csv__nTrack16to19
+ Smear the fitted histogram nTrack0to3 ... 
+ bin number 1 original 47.918 new 39.5093
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 0 new 0
+ bin number 22 original 95.28 new 98.3215
+ bin number 23 original 155.296 new 150.443
+ bin number 24 original 100.149 new 98.0419
+ bin number 25 original 51.7064 new 71.5399
+ bin number 26 original 39.5036 new 39.4082
+ bin number 27 original 24.5932 new 26.7809
+ bin number 28 original 24.0842 new 28.5408
+ bin number 29 original 40.1143 new 32.782
+ bin number 30 original 42.7522 new 44.052
+ bin number 31 original 17.7521 new 21.7987
+ bin number 32 original 23.4111 new 27.2955
+ bin number 33 original 13.3689 new 5.70099
+ bin number 34 original 23.9512 new 26.8599
+ bin number 35 original 15.5447 new 13.772
+ bin number 36 original 10.7231 new 14.4168
+ bin number 37 original 14.8795 new 16.666
+ bin number 38 original 13.4785 new 6.17702
+ bin number 39 original 21.149 new 15.8973
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.17517 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=1.29619e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           7.69358e-02   2.42642e-02   2.59133e-04  -2.73305e-04
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           7.69358e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.17517 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.25506e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           7.69364e-02   2.42643e-02   2.60088e-04   8.50442e-07
+
+Print results from minuit
+a1= 0.0769364 error    0.0242643
+a2=  0.923064 error    0.0242643
+
+ Minimum chi square = 7.17517
+ Estimated vert. distance to min. = 1.25506e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=7.17517 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.25506e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           7.69364e-02   2.42643e-02   0.00000e+00   3.00000e-01
+fraction is 0.0769364 error is 0.0242643
+finished fitting jet_csv__nTrack0to3
+ Smear the fitted histogram nTrack4to7 ... 
+ bin number 1 original 10.4258 new 8.55927
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 8.22636 new 16.581
+ bin number 22 original 1438.5 new 1491.16
+ bin number 23 original 1554.04 new 1599.1
+ bin number 24 original 876.094 new 836.581
+ bin number 25 original 569.198 new 517.269
+ bin number 26 original 386.413 new 408.722
+ bin number 27 original 222.261 new 230.208
+ bin number 28 original 189.136 new 203.371
+ bin number 29 original 230.659 new 218.458
+ bin number 30 original 184.367 new 189.581
+ bin number 31 original 146.462 new 122.414
+ bin number 32 original 136.874 new 147.712
+ bin number 33 original 135.888 new 180.198
+ bin number 34 original 97.8947 new 124.525
+ bin number 35 original 108.106 new 73.6324
+ bin number 36 original 122.096 new 129.466
+ bin number 37 original 198.264 new 207.396
+ bin number 38 original 179.967 new 190.471
+ bin number 39 original 182.334 new 172.789
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=15.2144 FROM MIGRAD    STATUS=CONVERGED      19 CALLS          20 TOTAL
+                     EDM=5.73199e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.45522e-01   1.23049e-02   1.61475e-04  -4.12095e-03
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.45522e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=15.2144 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.05264e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.45524e-01   1.23051e-02   1.61544e-04   2.46601e-06
+
+Print results from minuit
+a1=  0.145524 error    0.0123051
+a2=  0.854476 error    0.0123051
+
+ Minimum chi square = 15.2144
+ Estimated vert. distance to min. = 2.05264e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=15.2144 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.05264e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.45524e-01   1.23051e-02   0.00000e+00   3.00000e-01
+fraction is 0.145524 error is 0.0123051
+finished fitting jet_csv__nTrack4to7
+ Smear the fitted histogram nTrack8to11 ... 
+ bin number 1 original 1.09578 new -0.0561512
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 8.47681 new 6.10167
+ bin number 22 original 2125.79 new 2139.71
+ bin number 23 original 1712.5 new 1712.68
+ bin number 24 original 1140.69 new 1120.34
+ bin number 25 original 733.237 new 702.485
+ bin number 26 original 555.717 new 495.631
+ bin number 27 original 384.935 new 401.962
+ bin number 28 original 352.639 new 385.792
+ bin number 29 original 260.192 new 237.713
+ bin number 30 original 207.014 new 190.001
+ bin number 31 original 215.992 new 227.467
+ bin number 32 original 180.511 new 187.071
+ bin number 33 original 164.09 new 164.984
+ bin number 34 original 179.298 new 181.684
+ bin number 35 original 162.414 new 162.387
+ bin number 36 original 163.221 new 139.8
+ bin number 37 original 230.602 new 195.854
+ bin number 38 original 245.649 new 255.77
+ bin number 39 original 268.407 new 286.814
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.95507 FROM MIGRAD    STATUS=CONVERGED      19 CALLS          20 TOTAL
+                     EDM=1.21767e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.61345e-01   9.18401e-03   8.96805e-05  -2.53992e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.61345e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.95506 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=9.56247e-17    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.61352e-01   9.18446e-03   8.97769e-05   2.25070e-07
+
+Print results from minuit
+a1=  0.161352 error   0.00918446
+a2=  0.838648 error   0.00918446
+
+ Minimum chi square = 7.95506
+ Estimated vert. distance to min. = 9.56247e-17
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=7.95506 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=9.56247e-17    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.61352e-01   9.18446e-03   0.00000e+00   3.00000e-01
+fraction is 0.161352 error is 0.00918446
+finished fitting jet_csv__nTrack8to11
+ Smear the fitted histogram nTrack12to15 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 4.46158 new 2.67036
+ bin number 22 original 1188.92 new 1193.41
+ bin number 23 original 796.937 new 781.588
+ bin number 24 original 833.748 new 831.748
+ bin number 25 original 416.933 new 401.768
+ bin number 26 original 368.834 new 380.889
+ bin number 27 original 312.995 new 344.748
+ bin number 28 original 249.648 new 258.12
+ bin number 29 original 196.51 new 187.632
+ bin number 30 original 168.792 new 225.861
+ bin number 31 original 146.729 new 172.103
+ bin number 32 original 122.344 new 111.35
+ bin number 33 original 125.392 new 139.801
+ bin number 34 original 116.445 new 92.8746
+ bin number 35 original 110.544 new 108.122
+ bin number 36 original 102.912 new 116.467
+ bin number 37 original 133.72 new 136.483
+ bin number 38 original 113.19 new 116.23
+ bin number 39 original 155.902 new 163.944
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=10.2035 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=3.23557e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.38097e-01   1.27794e-02   1.37729e-04  -2.97283e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.38097e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=10.2035 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=7.74708e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.38113e-01   1.27809e-02   1.39852e-04  -1.45451e-06
+
+Print results from minuit
+a1=  0.138113 error    0.0127809
+a2=  0.861887 error    0.0127809
+
+ Minimum chi square = 10.2035
+ Estimated vert. distance to min. = 7.74708e-15
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=10.2035 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=7.74708e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.38113e-01   1.27809e-02   0.00000e+00   3.00000e-01
+fraction is 0.138113 error is 0.0127809
+finished fitting jet_csv__nTrack12to15
+ Smear the fitted histogram nTrack16to19 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 3.30313 new 3.76164
+ bin number 22 original 383.754 new 375.279
+ bin number 23 original 275.775 new 237.312
+ bin number 24 original 353.964 new 354.861
+ bin number 25 original 196.973 new 178.114
+ bin number 26 original 153.03 new 170.016
+ bin number 27 original 145.203 new 132.075
+ bin number 28 original 110.701 new 113.787
+ bin number 29 original 77.0754 new 76.4717
+ bin number 30 original 79.2196 new 77.9138
+ bin number 31 original 63.6981 new 73.3497
+ bin number 32 original 61.7493 new 69.0855
+ bin number 33 original 74.2571 new 78.8202
+ bin number 34 original 73.983 new 80.2417
+ bin number 35 original 62.4614 new 52.1874
+ bin number 36 original 59.4166 new 57.0695
+ bin number 37 original 71.5565 new 77.5913
+ bin number 38 original 50.9398 new 61.5167
+ bin number 39 original 65.9054 new 62.7943
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.19124 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=5.50516e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.21194e-01   1.76771e-02   1.67182e-04  -2.75658e-03
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.21194e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.19124 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=6.43983e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.21197e-01   1.76775e-02   1.68219e-04   9.42793e-07
+
+Print results from minuit
+a1=  0.121197 error    0.0176775
+a2=  0.878803 error    0.0176775
+
+ Minimum chi square = 7.19124
+ Estimated vert. distance to min. = 6.43983e-15
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=7.19124 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=6.43983e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.21197e-01   1.76775e-02   0.00000e+00   3.00000e-01
+fraction is 0.121197 error is 0.0176775
+finished fitting jet_csv__nTrack16to19
+ Smear the fitted histogram nTrack20to24 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 6.25415 new 4.20584
+ bin number 22 original 212.01 new 233.922
+ bin number 23 original 139.201 new 140.413
+ bin number 24 original 274.19 new 281.538
+ bin number 25 original 148.077 new 147.847
+ bin number 26 original 128.406 new 125.011
+ bin number 27 original 87.4861 new 86.5059
+ bin number 28 original 95.0389 new 102.908
+ bin number 29 original 63.5189 new 66.1562
+ bin number 30 original 80.7306 new 83.0801
+ bin number 31 original 66.579 new 71.1514
+ bin number 32 original 49.0381 new 43.1817
+ bin number 33 original 54.7048 new 63.9518
+ bin number 34 original 63.667 new 56.1625
+ bin number 35 original 39.3402 new 41.2338
+ bin number 36 original 45.547 new 47.9004
+ bin number 37 original 54.2118 new 50.5064
+ bin number 38 original 46.7839 new 44.4417
+ bin number 39 original 53.836 new 42.1117
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=5.90315 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=5.68397e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.04379e-01   1.78674e-02   1.60797e-04  -8.50464e-04
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.04379e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=5.90315 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.74253e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.04380e-01   1.78675e-02   1.60834e-04   5.90750e-07
+
+Print results from minuit
+a1=   0.10438 error    0.0178675
+a2=   0.89562 error    0.0178675
+
+ Minimum chi square = 5.90315
+ Estimated vert. distance to min. = 2.74253e-15
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=5.90315 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.74253e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.04380e-01   1.78675e-02   0.00000e+00   3.00000e-01
+fraction is 0.10438 error is 0.0178675
+finished fitting jet_csv__nTrack20to24
+ histoname jet_csv__nTrack16to19
+ Smear the fitted histogram nTrack0to3 ... 
+ bin number 1 original 451.566 new 473.354
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 0 new 0
+ bin number 22 original 794.838 new 828.999
+ bin number 23 original 1091.7 new 1098.39
+ bin number 24 original 703.13 new 697.517
+ bin number 25 original 448.118 new 346.274
+ bin number 26 original 279.226 new 265.407
+ bin number 27 original 277.927 new 292.333
+ bin number 28 original 205.515 new 201.731
+ bin number 29 original 258.101 new 242.574
+ bin number 30 original 230.695 new 258.706
+ bin number 31 original 155.745 new 120.911
+ bin number 32 original 161.621 new 167.722
+ bin number 33 original 143.511 new 156.92
+ bin number 34 original 96.1959 new 111.935
+ bin number 35 original 67.8068 new 82.2678
+ bin number 36 original 65.1691 new 58.1566
+ bin number 37 original 69.6149 new 54.2384
+ bin number 38 original 47.8395 new 57.2202
+ bin number 39 original 39.4333 new 41.3638
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=14.4148 FROM MIGRAD    STATUS=CONVERGED      19 CALLS          20 TOTAL
+                     EDM=2.38141e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.12998e-02   1.15922e-02   2.84049e-04   1.44501e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           2.12998e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=14.4148 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=4.23813e-17    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.12871e-02   1.15872e-02   2.89535e-04   6.09687e-08
+
+Print results from minuit
+a1= 0.0212871 error    0.0115872
+a2=  0.978713 error    0.0115872
+
+ Minimum chi square = 14.4148
+ Estimated vert. distance to min. = 4.23813e-17
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=14.4148 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=4.23813e-17    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           2.12871e-02   1.15872e-02   0.00000e+00   3.00000e-01
+fraction is 0.0212871 error is 0.0115872
+finished fitting jet_csv__nTrack0to3
+ Smear the fitted histogram nTrack4to7 ... 
+ bin number 1 original 69.7607 new 31.0378
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 28.0915 new 27.8312
+ bin number 22 original 12147.6 new 12148.7
+ bin number 23 original 12089.3 new 12007.2
+ bin number 24 original 7111.94 new 7010
+ bin number 25 original 4120.23 new 4198.84
+ bin number 26 original 2657.28 new 2673.51
+ bin number 27 original 2108.49 new 2214.69
+ bin number 28 original 1618.44 new 1625.48
+ bin number 29 original 1436.38 new 1382.26
+ bin number 30 original 1021.43 new 1002.63
+ bin number 31 original 1003.11 new 954.557
+ bin number 32 original 906.509 new 897.178
+ bin number 33 original 799.023 new 798.988
+ bin number 34 original 675.354 new 610.765
+ bin number 35 original 601.069 new 603.091
+ bin number 36 original 747.335 new 725.845
+ bin number 37 original 677.762 new 748.922
+ bin number 38 original 631.986 new 628.867
+ bin number 39 original 435.872 new 471.129
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.88249 FROM MIGRAD    STATUS=CONVERGED      48 CALLS          49 TOTAL
+                     EDM=1.4373e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.66022e-02   2.44082e-03   4.16412e-05   1.87305e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           2.66022e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.88249 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.17383e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.66016e-02   2.44077e-03   4.16559e-05   5.35283e-06
+
+Print results from minuit
+a1= 0.0266016 error   0.00244077
+a2=  0.973398 error   0.00244077
+
+ Minimum chi square = 7.88249
+ Estimated vert. distance to min. = 1.17383e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=7.88249 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.17383e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           2.66016e-02   2.44077e-03   0.00000e+00   3.00000e-01
+fraction is 0.0266016 error is 0.00244077
+finished fitting jet_csv__nTrack4to7
+ Smear the fitted histogram nTrack8to11 ... 
+ bin number 1 original 2.93524 new 2.63233
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 81.199 new 89.489
+ bin number 22 original 18044.8 new 17659.2
+ bin number 23 original 14357.5 new 14097.5
+ bin number 24 original 9131.89 new 9083.04
+ bin number 25 original 5545.13 new 5656.71
+ bin number 26 original 4257.58 new 4298.79
+ bin number 27 original 3176.13 new 3162.31
+ bin number 28 original 2454.74 new 2424.76
+ bin number 29 original 1954.83 new 1988.8
+ bin number 30 original 1583.25 new 1562.65
+ bin number 31 original 1389.66 new 1363.23
+ bin number 32 original 1292.63 new 1286.3
+ bin number 33 original 1179.89 new 1117.52
+ bin number 34 original 1026.65 new 994.41
+ bin number 35 original 922.034 new 945.084
+ bin number 36 original 898.013 new 875.228
+ bin number 37 original 844.421 new 830.956
+ bin number 38 original 816.158 new 804.535
+ bin number 39 original 740.451 new 733.911
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=4.29557 FROM MIGRAD    STATUS=CONVERGED      31 CALLS          32 TOTAL
+                     EDM=1.43501e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.62543e-02   1.65563e-03   2.19474e-05   8.67412e-04
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           2.62543e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=4.29557 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.75234e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.62543e-02   1.65563e-03   2.19454e-05   9.58533e-06
+
+Print results from minuit
+a1= 0.0262543 error   0.00165563
+a2=  0.973746 error   0.00165563
+
+ Minimum chi square = 4.29557
+ Estimated vert. distance to min. = 1.75234e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=4.29557 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.75234e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           2.62543e-02   1.65563e-03   0.00000e+00   3.00000e-01
+fraction is 0.0262543 error is 0.00165563
+finished fitting jet_csv__nTrack8to11
+ Smear the fitted histogram nTrack12to15 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 58.7509 new 44.8964
+ bin number 22 original 9644.42 new 9742.59
+ bin number 23 original 6670.25 new 6596.44
+ bin number 24 original 5999.46 new 5989.06
+ bin number 25 original 3293.76 new 3257.74
+ bin number 26 original 2717.65 new 2775.75
+ bin number 27 original 2242.27 new 2270.71
+ bin number 28 original 1743.41 new 1824.28
+ bin number 29 original 1391.39 new 1411.8
+ bin number 30 original 1185.43 new 1181.91
+ bin number 31 original 924.281 new 919.581
+ bin number 32 original 804.628 new 771.749
+ bin number 33 original 865.871 new 798.874
+ bin number 34 original 675.526 new 646.137
+ bin number 35 original 623.923 new 642.925
+ bin number 36 original 583.025 new 572.164
+ bin number 37 original 577.295 new 534.168
+ bin number 38 original 573.422 new 580.416
+ bin number 39 original 512.679 new 490.496
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.03382 FROM MIGRAD    STATUS=CONVERGED      25 CALLS          26 TOTAL
+                     EDM=4.91549e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.78710e-02   2.15972e-03   3.43898e-05  -1.26422e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           2.78710e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=7.03382 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=7.37146e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.78714e-02   2.15973e-03   3.43248e-05   4.89568e-06
+
+Print results from minuit
+a1= 0.0278714 error   0.00215973
+a2=  0.972129 error   0.00215973
+
+ Minimum chi square = 7.03382
+ Estimated vert. distance to min. = 7.37146e-15
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=7.03382 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=7.37146e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           2.78714e-02   2.15973e-03   0.00000e+00   3.00000e-01
+fraction is 0.0278714 error is 0.00215973
+finished fitting jet_csv__nTrack12to15
+ Smear the fitted histogram nTrack16to19 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 28.2095 new 26.5492
+ bin number 22 original 3465.91 new 3571.64
+ bin number 23 original 2306.46 new 2302.37
+ bin number 24 original 3034.77 new 2985.61
+ bin number 25 original 1549.25 new 1558.21
+ bin number 26 original 1284 new 1249.76
+ bin number 27 original 1158.12 new 1151.02
+ bin number 28 original 870.692 new 859.92
+ bin number 29 original 685.806 new 705.99
+ bin number 30 original 631.923 new 638.306
+ bin number 31 original 534.232 new 548.394
+ bin number 32 original 433.37 new 410.106
+ bin number 33 original 416.385 new 436.125
+ bin number 34 original 397.944 new 391.26
+ bin number 35 original 361.562 new 344.33
+ bin number 36 original 358.44 new 375.173
+ bin number 37 original 311.336 new 294.597
+ bin number 38 original 288.833 new 315.964
+ bin number 39 original 215.108 new 223.104
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=5.58483 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+                     EDM=2.88997e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           3.38048e-02   3.28178e-03   4.33542e-05   6.94792e-05
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           3.38048e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=5.58483 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=6.6363e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           3.38048e-02   3.28178e-03   4.33560e-05   3.32944e-06
+
+Print results from minuit
+a1= 0.0338048 error   0.00328178
+a2=  0.966195 error   0.00328178
+
+ Minimum chi square = 5.58483
+ Estimated vert. distance to min. = 6.6363e-15
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=5.58483 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=6.6363e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           3.38048e-02   3.28178e-03   0.00000e+00   3.00000e-01
+fraction is 0.0338048 error is 0.00328178
+finished fitting jet_csv__nTrack16to19
+ Smear the fitted histogram nTrack20to24 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 23.1535 new 20.1904
+ bin number 22 original 1775.84 new 1848.08
+ bin number 23 original 1225.02 new 1249.44
+ bin number 24 original 2205.57 new 2212.89
+ bin number 25 original 1148.46 new 1084.7
+ bin number 26 original 1022.06 new 1046.63
+ bin number 27 original 909.13 new 923.755
+ bin number 28 original 679.438 new 677.074
+ bin number 29 original 572.612 new 613.352
+ bin number 30 original 583.108 new 580.13
+ bin number 31 original 439.556 new 438.762
+ bin number 32 original 353.66 new 333.89
+ bin number 33 original 375.788 new 394.737
+ bin number 34 original 315.909 new 342.061
+ bin number 35 original 304.974 new 307.196
+ bin number 36 original 348.016 new 321.197
+ bin number 37 original 269.321 new 230.813
+ bin number 38 original 251.906 new 245.215
+ bin number 39 original 202.179 new 180.935
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=13.9971 FROM MIGRAD    STATUS=CONVERGED      27 CALLS          28 TOTAL
+                     EDM=1.70306e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           3.46623e-02   3.61945e-03   7.13811e-05   1.54601e-04
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           3.46623e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=13.9971 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.2662e-16    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           3.46623e-02   3.61945e-03   7.13824e-05   5.63958e-07
+
+Print results from minuit
+a1= 0.0346623 error   0.00361945
+a2=  0.965338 error   0.00361945
+
+ Minimum chi square = 13.9971
+ Estimated vert. distance to min. = 2.2662e-16
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=13.9971 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.2662e-16    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           3.46623e-02   3.61945e-03   0.00000e+00   3.00000e-01
+fraction is 0.0346623 error is 0.00361945
+finished fitting jet_csv__nTrack20to24
+ Bin Number 1 calc B          0 err          0
+ Bin Number 1 calc L   0.032166 err 0.00662188
+ Bin Number 2 calc B  0.0394354 err  0.0119125
+ Bin Number 2 calc L  0.0028604 err 0.000545274
+ Bin Number 3 calc B 0.00490079 err 0.00291027
+ Bin Number 3 calc L 0.000712623 err 0.000179128
+ Bin Number 4 calc B  0.0294641 err  0.0267528
+ Bin Number 4 calc L          0 err          0
+ Bin Number 5 calc B          0 err          0
+ Bin Number 5 calc L 5.46025e-05 err 3.87878e-05
+ Bin Number 6 calc B          0 err          0
+ Bin Number 6 calc L 7.20759e-05 err 7.24344e-05
+ Bin Number 7 calc B          0 err          0
+ Bin Number 7 calc L          0 err          0
+ Bin Number 8 calc B          0 err          0
+ Bin Number 8 calc L          0 err          0
+ histoname jet_csv__nTrack16to19
+ Smear the fitted histogram nTrack0to3 ... 
+ bin number 1 original 86 new 78.6392
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 0 new 0
+ bin number 22 original 139 new 157.677
+ bin number 23 original 200 new 199.929
+ bin number 24 original 110 new 112.648
+ bin number 25 original 84 new 86.8304
+ bin number 26 original 60 new 62.4402
+ bin number 27 original 57 new 57.401
+ bin number 28 original 38 new 41.6617
+ bin number 29 original 48 new 47.0511
+ bin number 30 original 40 new 40.6216
+ bin number 31 original 25 new 25.6476
+ bin number 32 original 40 new 47.9395
+ bin number 33 original 25 new 16.9246
+ bin number 34 original 16 new 15.4821
+ bin number 35 original 17 new 16.9856
+ bin number 36 original 13 new 9.05928
+ bin number 37 original 26 new 36.7899
+ bin number 38 original 30 new 37.2004
+ bin number 39 original 17 new 15.2585
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=24.177 FROM MIGRAD    STATUS=CONVERGED      18 CALLS          19 TOTAL
+                     EDM=2.81909e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.34667e-01   3.53156e-02   5.76371e-04  -3.14248e-03
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.34667e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=24.177 FROM MIGRAD    STATUS=CONVERGED      14 CALLS          15 TOTAL
+                     EDM=2.2337e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.34681e-01   3.53205e-02   5.85422e-04   8.84451e-06
+
+Print results from minuit
+a1=  0.134681 error    0.0353205
+a2=  0.865319 error    0.0353205
+
+ Minimum chi square = 24.177
+ Estimated vert. distance to min. = 2.2337e-12
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=24.177 FROM MIGRAD    STATUS=CONVERGED      14 CALLS          15 TOTAL
+                     EDM=2.2337e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.34681e-01   3.53205e-02   0.00000e+00   3.00000e-01
+fraction is 0.134681 error is 0.0353205
+finished fitting jet_csv__nTrack0to3
+ Smear the fitted histogram nTrack4to7 ... 
+ bin number 1 original 17 new 15.2696
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 7 new 7.75152
+ bin number 22 original 1828 new 1815.27
+ bin number 23 original 1956 new 1835.65
+ bin number 24 original 1195 new 1195.08
+ bin number 25 original 761 new 745.405
+ bin number 26 original 567 new 525.728
+ bin number 27 original 374 new 400.437
+ bin number 28 original 300 new 344.269
+ bin number 29 original 283 new 308.363
+ bin number 30 original 213 new 215.178
+ bin number 31 original 202 new 190.213
+ bin number 32 original 207 new 200.242
+ bin number 33 original 168 new 167.716
+ bin number 34 original 156 new 167.677
+ bin number 35 original 143 new 141.005
+ bin number 36 original 187 new 161.186
+ bin number 37 original 174 new 183.561
+ bin number 38 original 260 new 241.607
+ bin number 39 original 247 new 256.267
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=43.0002 FROM MIGRAD    STATUS=CONVERGED      21 CALLS          22 TOTAL
+                     EDM=1.60058e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.41148e-01   1.00813e-02   2.18149e-04  -2.65547e-03
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.41148e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=43.0002 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.75586e-13    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.41149e-01   1.00814e-02   2.18228e-04   1.10186e-05
+
+Print results from minuit
+a1=  0.141149 error    0.0100814
+a2=  0.858851 error    0.0100814
+
+ Minimum chi square = 43.0002
+ Estimated vert. distance to min. = 2.75586e-13
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=43.0002 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=2.75586e-13    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.41149e-01   1.00814e-02   0.00000e+00   3.00000e-01
+fraction is 0.141149 error is 0.0100814
+finished fitting jet_csv__nTrack4to7
+ Smear the fitted histogram nTrack8to11 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 12 new 10.904
+ bin number 22 original 2570 new 2609.72
+ bin number 23 original 2145 new 2143.16
+ bin number 24 original 1563 new 1582.59
+ bin number 25 original 892 new 886.698
+ bin number 26 original 679 new 651.683
+ bin number 27 original 519 new 473.642
+ bin number 28 original 431 new 422.644
+ bin number 29 original 373 new 382.264
+ bin number 30 original 307 new 300.324
+ bin number 31 original 275 new 276.877
+ bin number 32 original 250 new 236.53
+ bin number 33 original 260 new 235.685
+ bin number 34 original 225 new 217.634
+ bin number 35 original 200 new 201.855
+ bin number 36 original 250 new 270.588
+ bin number 37 original 250 new 248.414
+ bin number 38 original 259 new 242.529
+ bin number 39 original 358 new 396.832
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=30.7808 FROM MIGRAD    STATUS=CONVERGED      21 CALLS          22 TOTAL
+                     EDM=5.52743e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.62316e-01   7.98208e-03   1.45834e-04  -1.96823e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.62316e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=30.7808 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=6.37446e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.62320e-01   7.98240e-03   1.47046e-04   6.68372e-06
+
+Print results from minuit
+a1=   0.16232 error    0.0079824
+a2=   0.83768 error    0.0079824
+
+ Minimum chi square = 30.7808
+ Estimated vert. distance to min. = 6.37446e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=30.7808 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=6.37446e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.62320e-01   7.98240e-03   0.00000e+00   3.00000e-01
+fraction is 0.16232 error is 0.0079824
+finished fitting jet_csv__nTrack8to11
+ Smear the fitted histogram nTrack12to15 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 5 new 2.02924
+ bin number 22 original 1330 new 1335.48
+ bin number 23 original 991 new 1013.88
+ bin number 24 original 929 new 973.194
+ bin number 25 original 522 new 512.563
+ bin number 26 original 356 new 371.248
+ bin number 27 original 342 new 374.416
+ bin number 28 original 257 new 265.641
+ bin number 29 original 209 new 193.964
+ bin number 30 original 211 new 209.165
+ bin number 31 original 155 new 166.221
+ bin number 32 original 182 new 164.472
+ bin number 33 original 163 new 177.797
+ bin number 34 original 142 new 149.555
+ bin number 35 original 115 new 93.9311
+ bin number 36 original 126 new 108.274
+ bin number 37 original 156 new 154.871
+ bin number 38 original 170 new 195.163
+ bin number 39 original 184 new 189.976
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=27.817 FROM MIGRAD    STATUS=CONVERGED      21 CALLS          22 TOTAL
+                     EDM=1.40997e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.62714e-01   1.21089e-02   2.09931e-04  -2.07045e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.62714e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=27.817 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=7.14446e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.62725e-01   1.21100e-02   2.12593e-04   4.66016e-06
+
+Print results from minuit
+a1=  0.162725 error      0.01211
+a2=  0.837275 error      0.01211
+
+ Minimum chi square = 27.817
+ Estimated vert. distance to min. = 7.14446e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=27.817 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=7.14446e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.62725e-01   1.21100e-02   0.00000e+00   3.00000e-01
+fraction is 0.162725 error is 0.01211
+finished fitting jet_csv__nTrack12to15
+ Smear the fitted histogram nTrack16to19 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 4 new 3.04921
+ bin number 22 original 418 new 465.31
+ bin number 23 original 311 new 335.779
+ bin number 24 original 382 new 387.13
+ bin number 25 original 202 new 235.193
+ bin number 26 original 155 new 137.899
+ bin number 27 original 133 new 147.811
+ bin number 28 original 127 new 122.106
+ bin number 29 original 110 new 109.269
+ bin number 30 original 104 new 116.117
+ bin number 31 original 91 new 98.8747
+ bin number 32 original 76 new 75.5729
+ bin number 33 original 63 new 66.8831
+ bin number 34 original 56 new 59.3396
+ bin number 35 original 55 new 51.5705
+ bin number 36 original 69 new 55.3574
+ bin number 37 original 75 new 66.0981
+ bin number 38 original 56 new 53.0356
+ bin number 39 original 78 new 83.1127
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=27.9172 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.41515e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.29079e-01   1.62916e-02   2.84572e-04  -1.53074e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.29079e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=27.9172 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=5.05273e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.29093e-01   1.62932e-02   2.88577e-04   2.89220e-06
+
+Print results from minuit
+a1=  0.129093 error    0.0162932
+a2=  0.870907 error    0.0162932
+
+ Minimum chi square = 27.9172
+ Estimated vert. distance to min. = 5.05273e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=27.9172 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=5.05273e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.29093e-01   1.62932e-02   0.00000e+00   3.00000e-01
+fraction is 0.129093 error is 0.0162932
+finished fitting jet_csv__nTrack16to19
+ Smear the fitted histogram nTrack20to24 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 1 new 1.3849
+ bin number 22 original 143 new 137.115
+ bin number 23 original 133 new 154.869
+ bin number 24 original 198 new 206.973
+ bin number 25 original 109 new 105.88
+ bin number 26 original 127 new 113.365
+ bin number 27 original 93 new 89.3669
+ bin number 28 original 70 new 62.1872
+ bin number 29 original 55 new 67.293
+ bin number 30 original 85 new 99.1474
+ bin number 31 original 58 new 60.1017
+ bin number 32 original 36 new 40.8173
+ bin number 33 original 52 new 48.9806
+ bin number 34 original 38 new 53.7319
+ bin number 35 original 51 new 42.0265
+ bin number 36 original 36 new 37.8645
+ bin number 37 original 36 new 41.1956
+ bin number 38 original 45 new 38.8107
+ bin number 39 original 58 new 48.189
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=38.2021 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=6.468e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.49852e-01   2.29543e-02   4.63721e-04  -7.40315e-03
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.49852e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=38.2021 FROM MIGRAD    STATUS=CONVERGED      14 CALLS          15 TOTAL
+                     EDM=1.75086e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           1.49865e-01   2.29560e-02   4.69687e-04   1.21794e-05
+
+Print results from minuit
+a1=  0.149865 error     0.022956
+a2=  0.850135 error     0.022956
+
+ Minimum chi square = 38.2021
+ Estimated vert. distance to min. = 1.75086e-12
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=38.2021 FROM MIGRAD    STATUS=CONVERGED      14 CALLS          15 TOTAL
+                     EDM=1.75086e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           1.49865e-01   2.29560e-02   0.00000e+00   3.00000e-01
+fraction is 0.149865 error is 0.022956
+finished fitting jet_csv__nTrack20to24
+ histoname jet_csv__nTrack16to19
+ Smear the fitted histogram nTrack0to3 ... 
+ bin number 1 original 517 new 520.168
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 1 new 1.58786
+ bin number 22 original 767 new 762.587
+ bin number 23 original 1308 new 1322.32
+ bin number 24 original 827 new 878.636
+ bin number 25 original 612 new 660.859
+ bin number 26 original 435 new 466.515
+ bin number 27 original 355 new 327.587
+ bin number 28 original 275 new 265.728
+ bin number 29 original 372 new 380.721
+ bin number 30 original 377 new 383.125
+ bin number 31 original 180 new 173.364
+ bin number 32 original 235 new 245.378
+ bin number 33 original 171 new 170.289
+ bin number 34 original 130 new 126.252
+ bin number 35 original 70 new 85.0872
+ bin number 36 original 81 new 67.9495
+ bin number 37 original 105 new 90.5469
+ bin number 38 original 50 new 43.8022
+ bin number 39 original 45 new 49.5808
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=58.4022 FROM MIGRAD    STATUS=CONVERGED      25 CALLS          26 TOTAL
+                     EDM=7.11647e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           9.20548e-03   6.78080e-03   5.08386e-04  -9.07677e-04
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           9.20548e-03  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=58.4022 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=1.78944e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           9.20586e-03   6.78125e-03   4.94638e-04  -4.55133e-05
+
+Print results from minuit
+a1=0.00920586 error   0.00678125
+a2=  0.990794 error   0.00678125
+
+ Minimum chi square = 58.4022
+ Estimated vert. distance to min. = 1.78944e-11
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=58.4022 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=1.78944e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           9.20586e-03   6.78125e-03   0.00000e+00   3.00000e-01
+fraction is 0.00920586 error is 0.00678125
+finished fitting jet_csv__nTrack0to3
+ Smear the fitted histogram nTrack4to7 ... 
+ bin number 1 original 79 new 86.7905
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 16 new 20.8403
+ bin number 22 original 12621 new 12431.5
+ bin number 23 original 13649 new 13503.4
+ bin number 24 original 8248 new 8236.07
+ bin number 25 original 4868 new 4811.68
+ bin number 26 original 3729 new 3815.69
+ bin number 27 original 2555 new 2497.93
+ bin number 28 original 1919 new 1878.82
+ bin number 29 original 1922 new 1862.41
+ bin number 30 original 1432 new 1418.1
+ bin number 31 original 1137 new 1140.07
+ bin number 32 original 1062 new 1081.75
+ bin number 33 original 947 new 940.196
+ bin number 34 original 847 new 778.649
+ bin number 35 original 699 new 679.2
+ bin number 36 original 780 new 778.987
+ bin number 37 original 778 new 780.566
+ bin number 38 original 694 new 699.183
+ bin number 39 original 570 new 565.548
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=129.807 FROM MIGRAD    STATUS=CONVERGED      30 CALLS          31 TOTAL
+                     EDM=2.213e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.59290e-02   2.08881e-03   1.38174e-04  -8.48960e-04
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           2.59290e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=129.807 FROM MIGRAD    STATUS=CONVERGED      18 CALLS          19 TOTAL
+                     EDM=9.68757e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           2.59290e-02   2.08881e-03   1.38390e-04   5.61699e-06
+
+Print results from minuit
+a1=  0.025929 error   0.00208881
+a2=  0.974071 error   0.00208881
+
+ Minimum chi square = 129.807
+ Estimated vert. distance to min. = 9.68757e-15
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=129.807 FROM MIGRAD    STATUS=CONVERGED      18 CALLS          19 TOTAL
+                     EDM=9.68757e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           2.59290e-02   2.08881e-03   0.00000e+00   3.00000e-01
+fraction is 0.025929 error is 0.00208881
+finished fitting jet_csv__nTrack4to7
+ Smear the fitted histogram nTrack8to11 ... 
+ bin number 1 original 1 new 2.00303
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 69 new 69.458
+ bin number 22 original 18238 new 18463.4
+ bin number 23 original 15707 new 15881.6
+ bin number 24 original 10166 new 10142.1
+ bin number 25 original 6062 new 6022.92
+ bin number 26 original 4503 new 4528.58
+ bin number 27 original 3433 new 3509.17
+ bin number 28 original 2693 new 2653.51
+ bin number 29 original 2203 new 2146.88
+ bin number 30 original 1779 new 1791.55
+ bin number 31 original 1593 new 1535.61
+ bin number 32 original 1398 new 1438.8
+ bin number 33 original 1312 new 1293.47
+ bin number 34 original 1177 new 1194.06
+ bin number 35 original 1030 new 1043.5
+ bin number 36 original 1100 new 1139.68
+ bin number 37 original 1073 new 1029.15
+ bin number 38 original 943 new 908.384
+ bin number 39 original 821 new 816.142
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=39.9398 FROM MIGRAD    STATUS=CONVERGED      34 CALLS          35 TOTAL
+                     EDM=3.49045e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           3.34023e-02   1.72129e-03   5.69858e-05  -4.58032e-03
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           3.34023e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=39.9398 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.0634e-13    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           3.34024e-02   1.72129e-03   5.69906e-05   2.52814e-05
+
+Print results from minuit
+a1= 0.0334024 error   0.00172129
+a2=  0.966598 error   0.00172129
+
+ Minimum chi square = 39.9398
+ Estimated vert. distance to min. = 1.0634e-13
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=39.9398 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=1.0634e-13    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           3.34024e-02   1.72129e-03   0.00000e+00   3.00000e-01
+fraction is 0.0334024 error is 0.00172129
+finished fitting jet_csv__nTrack8to11
+ Smear the fitted histogram nTrack12to15 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 54 new 60.1138
+ bin number 22 original 8903 new 8886.22
+ bin number 23 original 6791 new 6790.91
+ bin number 24 original 5984 new 5932.58
+ bin number 25 original 3242 new 3213.32
+ bin number 26 original 2624 new 2717.76
+ bin number 27 original 2157 new 2204.99
+ bin number 28 original 1703 new 1646.19
+ bin number 29 original 1448 new 1494.59
+ bin number 30 original 1165 new 1163.78
+ bin number 31 original 1040 new 1054.39
+ bin number 32 original 866 new 878.197
+ bin number 33 original 806 new 845.163
+ bin number 34 original 705 new 729.689
+ bin number 35 original 662 new 667.332
+ bin number 36 original 662 new 633.155
+ bin number 37 original 645 new 689.488
+ bin number 38 original 553 new 541.949
+ bin number 39 original 547 new 530.498
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=46.0952 FROM MIGRAD    STATUS=CONVERGED      24 CALLS          25 TOTAL
+                     EDM=5.79443e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           4.14559e-02   2.58600e-03   8.46031e-05  -4.30931e-02
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           4.14559e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=46.0952 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=7.02191e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           4.14573e-02   2.58611e-03   8.37088e-05   1.50009e-05
+
+Print results from minuit
+a1= 0.0414573 error   0.00258611
+a2=  0.958543 error   0.00258611
+
+ Minimum chi square = 46.0952
+ Estimated vert. distance to min. = 7.02191e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=46.0952 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=7.02191e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           4.14573e-02   2.58611e-03   0.00000e+00   3.00000e-01
+fraction is 0.0414573 error is 0.00258611
+finished fitting jet_csv__nTrack12to15
+ Smear the fitted histogram nTrack16to19 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 19 new 22.8375
+ bin number 22 original 2822 new 2722.23
+ bin number 23 original 1995 new 2030.57
+ bin number 24 original 2608 new 2589.33
+ bin number 25 original 1305 new 1312.33
+ bin number 26 original 1079 new 1130.4
+ bin number 27 original 1032 new 1067.45
+ bin number 28 original 730 new 725.039
+ bin number 29 original 659 new 654.763
+ bin number 30 original 514 new 501.434
+ bin number 31 original 472 new 481.112
+ bin number 32 original 395 new 383.619
+ bin number 33 original 397 new 418.893
+ bin number 34 original 336 new 327.861
+ bin number 35 original 323 new 337.83
+ bin number 36 original 306 new 327.494
+ bin number 37 original 275 new 259.949
+ bin number 38 original 273 new 251.269
+ bin number 39 original 223 new 209.919
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=27.1163 FROM MIGRAD    STATUS=CONVERGED      22 CALLS          23 TOTAL
+                     EDM=4.83229e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           5.18625e-02   4.11228e-03   9.38823e-05   8.57405e-04
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           5.18625e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=27.1163 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=3.47865e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           5.18625e-02   4.11228e-03   9.38760e-05   7.27471e-06
+
+Print results from minuit
+a1= 0.0518625 error   0.00411228
+a2=  0.948138 error   0.00411228
+
+ Minimum chi square = 27.1163
+ Estimated vert. distance to min. = 3.47865e-14
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=27.1163 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=3.47865e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           5.18625e-02   4.11228e-03   0.00000e+00   3.00000e-01
+fraction is 0.0518625 error is 0.00411228
+finished fitting jet_csv__nTrack16to19
+ Smear the fitted histogram nTrack20to24 ... 
+ bin number 1 original 0 new 0
+ bin number 2 original 0 new 0
+ bin number 3 original 0 new 0
+ bin number 4 original 0 new 0
+ bin number 5 original 0 new 0
+ bin number 6 original 0 new 0
+ bin number 7 original 0 new 0
+ bin number 8 original 0 new 0
+ bin number 9 original 0 new 0
+ bin number 10 original 0 new 0
+ bin number 11 original 0 new 0
+ bin number 12 original 0 new 0
+ bin number 13 original 0 new 0
+ bin number 14 original 0 new 0
+ bin number 15 original 0 new 0
+ bin number 16 original 0 new 0
+ bin number 17 original 0 new 0
+ bin number 18 original 0 new 0
+ bin number 19 original 0 new 0
+ bin number 20 original 0 new 0
+ bin number 21 original 14 new 8.39069
+ bin number 22 original 1141 new 1129.43
+ bin number 23 original 832 new 843.191
+ bin number 24 original 1408 new 1407.02
+ bin number 25 original 782 new 801.602
+ bin number 26 original 653 new 668.652
+ bin number 27 original 594 new 591.506
+ bin number 28 original 475 new 480.495
+ bin number 29 original 403 new 406.592
+ bin number 30 original 422 new 398.372
+ bin number 31 original 303 new 287.232
+ bin number 32 original 239 new 226.17
+ bin number 33 original 223 new 215.68
+ bin number 34 original 218 new 201.639
+ bin number 35 original 184 new 207.87
+ bin number 36 original 218 new 250.652
+ bin number 37 original 186 new 200.793
+ bin number 38 original 170 new 139.797
+ bin number 39 original 189 new 186.037
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           1.00000e-01  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=23.9536 FROM MIGRAD    STATUS=CONVERGED      19 CALLS          20 TOTAL
+                     EDM=4.264e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           7.00086e-02   5.99677e-03   1.14947e-04  -1.95333e-03
+
+ ********************* 
+ fit one more time, use the previous fitting result as initial par this time
+ *********************** 
+
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET ERR           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 a1           7.00086e-02  1.00000e-01    0.00000e+00  3.00000e-01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    3 **MIGRAD       5e+04
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=23.9536 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=9.31567e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  a1           7.00089e-02   5.99679e-03   1.15315e-04   2.88718e-06
+
+Print results from minuit
+a1= 0.0700089 error   0.00599679
+a2=  0.929991 error   0.00599679
+
+ Minimum chi square = 23.9536
+ Estimated vert. distance to min. = 9.31567e-15
+ Number of variable parameters = 1
+ Highest number of parameters defined by user = 1
+ Status of covariance matrix = 3
+
+ FCN=23.9536 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=9.31567e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                  PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+   1  a1           7.00089e-02   5.99679e-03   0.00000e+00   3.00000e-01
+fraction is 0.0700089 error is 0.00599679
+finished fitting jet_csv__nTrack20to24
+ Bin Number 1 calc B          0 err          0
+ Bin Number 1 calc L  0.0368738 err 0.00253437
+ Bin Number 2 calc B  0.0283896 err 0.00766712
+ Bin Number 2 calc L 0.00347574 err 0.000382788
+ Bin Number 3 calc B 0.00979092 err 0.00322998
+ Bin Number 3 calc L 0.000711915 err 0.000181914
+ Bin Number 4 calc B          0 err          0
+ Bin Number 4 calc L 0.000274675 err 0.000113169
+ Bin Number 5 calc B          0 err          0
+ Bin Number 5 calc L 0.000103117 err 0.000103629
+ Bin Number 6 calc B          0 err          0
+ Bin Number 6 calc L          0 err          0
+ Bin Number 7 calc B          0 err          0
+ Bin Number 7 calc L          0 err          0
+ Bin Number 8 calc B          0 err          0
+ Bin Number 8 calc L          0 err          0

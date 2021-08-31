@@ -1,0 +1,24 @@
+272c272
+<   data->SetMarkerStyle(20);
+---
+>   data->SetMarkerStyle(8);
+293c293
+<   data->Draw("E1X0 same");
+---
+>   data->Draw("Ep same");
+302,307c302,303
+<   result->SetLineColor(13);
+<   result->SetFillColor(13);
+<   result->SetLineWidth(0);
+<   result->SetFillStyle(3001);
+<   result->SetMarkerSize(0);
+<   result->Draw("E2 same");
+---
+>   result->SetLineColor(4);
+>   result->Draw("same");
+310c306
+<   lgd->AddEntry(data, "data", "pe");
+---
+>   lgd->AddEntry(data, "data", "pel");
+316d311
+<   lgd->AddEntry(result, "unc.", "f");
